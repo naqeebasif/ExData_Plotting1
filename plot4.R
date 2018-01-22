@@ -59,6 +59,7 @@ lines(datetime,subset$Sub_metering_3,xlab = "",
 
 legend("topright",col=c("black","red","blue"),legend = c('Sub_metering_1','Sub_metering_2','Sub_metering_3'),lty = c(1,1,1),bty = "n")
 
+#subplot4
 plot(datetime,subset$Global_reactive_power,xlab = "datetime",
                  ylab = "Global_reactive_power",main = "",type = "l")
 
