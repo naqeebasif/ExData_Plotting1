@@ -26,7 +26,7 @@ subset <- data %>%filter(Date=="1/2/2007"|Date=="2/2/2007" )
 subset$Global_active_power<- as.numeric(subset$Global_active_power)
 #-----------------------------------------------------------------------------
 #Plot 1
-png(filename = "./plot2.png",height = 480,width = 480)
+png(filename = "./plot1.png",height = 480,width = 480)
 hist(subset$Global_active_power,xlab = "Global Active Power (kilowatts)",
      ylab = "Frquency",main = "Global Active Power",col="red")
 
